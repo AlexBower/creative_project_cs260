@@ -17,6 +17,10 @@
   color: #575757!important;
 }
 
+.nav-item a:hover {
+  font-weight: 700!important;
+}
+
 .active a {
   font-weight: 800!important;
   color: #122254!important;
