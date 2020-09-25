@@ -1,11 +1,22 @@
+.horizontal-row {
+  display: flex;
+  flex-direction: row;
+}
+
 .banner {
-  background-color: #e9e9e9;
+  background-color: #e9f9ff;
   padding: 25px;
 }
 
-.banner-header {
-  display: flex;
-  flex-direction: row;
+.navbar {
+  margin-top: 1px;
+  border-bottom: 3px solid #575757;
+  border-top: 3px solid #575757;
+}
+
+.brand-logo-text {
+  padding-right: 15px;
+  padding-left: 10px;
 }
 
 .nav-item {
@@ -43,11 +54,38 @@
 .page {
   display: flex;
   flex-flow: column;
-  background-color: #e9e9e9;
+  background-color: #e9f9ff;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.page img {
+  display: block;
+  width: 100%;
+}
+
+.home-page-image {
+  padding-bottom: 35px;
+}
+
+.page-description {
+  text-align: center;
+  font-size: large;
+  padding-bottom: 35px;
+}
+
+.page p {
+  text-align: left;
+  color: #575757;
+}
+
+.answer {
+  width: fit-content;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  background-color: #575757;
 }
 
 .page h1 {
@@ -57,25 +95,36 @@
 	padding-left: 10px;
 	padding-right: 10px;
 	border-bottom: 3px solid #575757;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 }
 
 h2, h3, h4, h5 ,h6 {
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   color: #575757;
+  text-align: left;
+}
+
+.image-description {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.sources {
+  margin-top: 30px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-top: 3px solid #575757;
+}
+
+.sources h3 {
+  text-align: center;
 }
 
 .footer {
   height: 50px;
   width: 100%;
-  display: flex;
   align-content: center;
   justify-content: center;
   background-color: #cecece;
-}
-
-.footer a {
-  margin-top: 10px;
-  display: table-cell;
-  vertical-align: middle;
 }
