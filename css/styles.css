@@ -1,0 +1,36 @@
+.navbar-text {
+	padding-left: 10px;
+}
+
+.riddle-color {
+	color: #572a89;
+}
+
+.hub-color {
+	color: #89672a;
+}
+
+.page {
+  display: flex;
+  flex-flow: column;
+  background-color: #e6e6e6;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: #bbdfd2;
+}
+
+.footer a {
+  margin-top: 10px;
+  display: table-cell;
+  vertical-align: middle;
+}
