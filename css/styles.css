@@ -76,16 +76,20 @@
   padding-bottom: 35px;
 }
 
+.page {
+	color: #575757;
+	font-family: 'Noto Serif', serif;
+}
+
 .page p {
   text-align: left;
-  color: #575757;
 }
 
 .answer {
   width: fit-content;
   margin-bottom: 50px;
   border-radius: 5px;
-  background-color: #575757;
+	background-color: #575757;
 }
 
 .page h1 {
@@ -96,13 +100,15 @@
 	padding-right: 10px;
 	border-bottom: 3px solid #575757;
 	margin-bottom: 30px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2, h3, h4, h5 ,h6 {
   padding-top: 15px;
   padding-bottom: 15px;
   color: #575757;
-  text-align: left;
+	text-align: left;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .image-description {
