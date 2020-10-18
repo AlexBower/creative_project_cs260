@@ -108,8 +108,8 @@
 			let everything = "";
 			for (let joke of json) {
 				let currentJoke = "<div class='col-lg-4 joke'>";
-				let jokeType = (joke[type].charAt(0) + "").toLocaleUpperCase();
-				jokeType += joke[type].substring(1);
+				let jokeType = (joke['type'].charAt(0) + "").toLocaleUpperCase();
+				jokeType += joke['type'].substring(1);
 				currentJoke += "<h3>" + jokeType + " Joke:</h3>";
 				currentJoke += "<p><strong>Setup: </strong>";
 				currentJoke += joke["setup"];
