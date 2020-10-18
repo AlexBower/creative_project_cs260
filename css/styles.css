@@ -116,6 +116,11 @@ h2, h3, h4, h5 ,h6 {
   text-align: center;
 }
 
+.joke {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
 .sources {
   margin-top: 30px;
   margin-left: 25px;
